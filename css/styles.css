@@ -161,14 +161,14 @@ body {
   margin-right: 40px;
 }
 
-.history-content {
-  color: #595959;
-  font-size: 16px;
-}
-
-.history-title {
+.title-36p {
   font-size: 36px;
   font-weight: bold;
+}
+
+.content-16p {
+  color: #595959;
+  font-size: 16px;
 }
 
 .history-img {
@@ -254,3 +254,68 @@ body {
   }
 }
 /* FIM DO CSS REFERENTE A PÁGINA SOBRE */
+
+/* CSS REFERENTE A PÁGINA SEJA VOLUNTÁRIO */
+.form-text {
+  margin: 100px 0 25px 0;
+}
+
+.form-card {
+  background: #f6f6f6;
+}
+
+.form-card-body {
+  color: #222222;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  background: #ffffff;
+  border: 1px solid #222222;
+  margin-top: 8px;
+  padding: 8px 14px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input-label {
+  font-size: 14px;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card-footer {
+  background: #e7e7e7;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-btn {
+  background: #fab700;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 18px;
+}
+
+.form-btn:hover {
+  background: #eab000;
+  color: #ffffff;
+}
+
+.w-100p {
+  width: 100%;
+}
+.w-66p {
+  width: 66%;
+}
+.w-50p {
+  width: 50%;
+}
+/* FIM DO CSS REFERENTE A PÁGINA SEJA VOLUNTÁRIO */
