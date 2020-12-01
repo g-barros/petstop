@@ -319,3 +319,26 @@ body {
   width: 50%;
 }
 /* FIM DO CSS REFERENTE A PÁGINA SEJA VOLUNTÁRIO */
+
+/*CSS REFERENTE AS IMAGENS DA PÁGINA DE GATOS*/
+
+.top {
+    margin-top: 80px ;
+}
+.bottom {
+    margin-bottom: 80px;
+}
+.row { 
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.img {
+    width: 260px;
+    height: 350px;
+    margin: 10px;
+}
+.img:hover {
+    background-color: black;
+    opacity: 90%;
+}
