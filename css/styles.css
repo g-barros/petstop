@@ -365,3 +365,17 @@ body {
   background-image: url('../img/call-contact.png'); 
   background-size: cover;
 }
+
+/*CSS PAGINA HOME*/ 
+.pTexto {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.dvEscolha h2 {
+  font-size: 20px;
+  color: #000000;
+  padding: 6px 0px;
+  margin: 0px;
+}
