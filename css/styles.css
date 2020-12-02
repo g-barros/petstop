@@ -320,34 +320,6 @@ body {
 }
 /* FIM DO CSS REFERENTE A PÁGINA SEJA VOLUNTÁRIO */
 
-/*CSS REFERENTE AS IMAGENS DA PÁGINA DE GATOS*/
-
-.top {
-    margin-top: 80px ;
-    justify-self: center;
-    align-items: center;
-}
-.bottom {
-    margin-bottom: 80px;
-    justify-content: center;
-    align-items: center;
-}
-.row-cat { 
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    margin-left: 180px;
-    margin-right: 180px;
-}
-.img {
-    width: 260px;
-    height: 350px;
-    margin: 10px;
-}
-.img:hover {
-    background-color: black;
-    opacity: 90%;
-}
 
 /*CSS REFERENTE À PÁGINA DE CACHORROS*/
 .dogs-banner {
@@ -367,6 +339,8 @@ body {
   background-size: cover;
 }
 
+/*FIM DO CSS REFERENTE A PÁGINA DE CACHORROS */
+
 /*CSS PAGINA HOME*/ 
 .pTexto {
   font-size: 14px;
@@ -380,3 +354,5 @@ body {
   padding: 6px 0px;
   margin: 0px;
 }
+
+/*FIM DO CSS REFERENTE A PÁGINA HOME*/
