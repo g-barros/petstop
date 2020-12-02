@@ -324,14 +324,19 @@ body {
 
 .top {
     margin-top: 80px ;
+    justify-self: center;
+    align-items: center;
 }
 .bottom {
     margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
 }
-.row { 
+.row-cat { 
     align-items: center;
     justify-content: center;
-    /* margin: 20px; */
+    margin: 20px;
+    margin-left: 180px;
 }
 .img {
     width: 260px;
@@ -347,17 +352,13 @@ body {
 .dogs-banner {
   background-image: url('../img/dogs-banner.png');
   background-repeat: no-repeat;
-  max-width: 1440px;
+  background-position: center;
   height: 520px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  max-height: 100vh;
 }
 
 .dogs-title {
-  color: white;
   font-size: 40px;
-  font-weight: bold;
 }
 
 #bannerGeral {
