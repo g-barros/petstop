@@ -348,3 +348,35 @@ body {
     background-color: black;
     opacity: 90%;
 }
+
+/*CSS REFERENTE À PÁGINA DE CACHORROS*/
+.dogs-banner {
+  background-image: url('../img/dogs-banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  max-height: 100vh;
+}
+
+.dogs-title {
+  font-size: 40px;
+}
+
+#bannerGeral {
+  background-image: url('../img/call-contact.png'); 
+  background-size: cover;
+}
+
+/*CSS PAGINA HOME*/ 
+.pTexto {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.dvEscolha h2 {
+  font-size: 20px;
+  color: #000000;
+  padding: 6px 0px;
+  margin: 0px;
+}

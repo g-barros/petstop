@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -9,7 +10,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <title>PetStop - Sobre</title>
+    <title>PetStop - Home</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -38,95 +39,105 @@
       </ul>
     </header>
 
-    <div class="container-fluid mx-0" id="carrousel" style="overflow:hidden">
+    <div class="container-fluid mx-0" style="overflow:hidden">
       <div class="row px-n5 mx-n5">
         <div class="col-md-12">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-caption trickcenter" style="top:30%; font-size:40px; font-weight: bold;">
-                  <div>
-                    <h1>SOBRE</h1>
+              <div class="carousel-item active d-flex flex-column justify-content-center align-items-center" style="height: 600px;">
+                <div class="carousel-caption" style="top:30%; font-size:30px; font-weight: bold;">
+                  <div class="text-left" >
+                    <h1>NOS ADOTE</h1>
+                    <h1>PRECISAMOS DE</h1>
+                    <h1>VOCÊ</h1>
+                    <p class="pTexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vestibulum ut magna ante. Cras convallis, metus.</p>
+                  <button class="btn btn-light">ENCONTRE UM PET</button>
                   </div>
                   </div>
-                <img class="d-block w-100 img-fluid" src="img/banner-contact.png" alt="First slide">
+                <img class="img-fluid rounded mx-auto d-block" style="opacity: 0.8;" src="img/gato.jpg" alt="Imagem de Gato">
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-center" style="position: absolute; left: 25%;top: 75%; margin: 35px 0px; width:50%;">
+        <img src="img/pug.jpg" width="25%">
+        <img src="img/gato-brincando.jpg" width="25%">
+        <img src="img/cachorro.png" width="25%">
+        <img src="img/gato-olhando.jpg" width="25%">
+      </div>
+    </div>
+
+    <div class="container text-center d-flex flex-row" style="margin-top: 234px; background-color: #f6f6f6;
+    padding: 10px 20px; justify-content: space-between;max-width: 600px;">
+      <div class="dvEscolha">
+        <h2>Escolha seu bichinho favorito!</h2>
+      </div>
+      <div> 
+        <button class="btn btn-warning text-white mr-1">GATOS</button>
+        <button  class="btn btn-warning text-white mr-0" >CACHORROS</button>
+      </div>
+    </div>
+
+    <div style=" margin-top: 80px;">
+      <div style="width: 600px; height: 275px; margin-left: auto; margin-right: auto;  display: flex; flex-direction: row; justify-content: center;margin-top: 30px;">
+        <div style="width: 50%;">
+          <img src="img/cachorro-adocao.jpg">
+        </div>
+        <div style="width: 50%; padding: 30px 25px;">
+          <div class="text-left">
+          <h2 style="font-size: 20px;">Conheça nossa História</h2>
+          <p style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dolor felis. Cras commodo sagittis sapien non volutpat. Etiam tristique nisi aliquet nisi consectetur luctus. Pellentesque dictum interdum blandit.</p>
+          <button class="btn btn-warning">SOBRE NÓS</button>
         </div>
       </div>
     </div>
 
-    <div class="centralize">
-      <div class="history-section">
-        <div class="history-text">
-          <h2 class="title-36p">Nossa história</h2>
-          <p class="content-16p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam diam
-            dolor, elementum non magna sit amet, accumsan imperdiet dui. Sed
-            porttitor faucibus tortor, quis elementum augue dictum congue.
-            Maecenas blandit feugiat urna, nec consequat dolor bibendum sit
-            amet. Cras tincidunt ante eu bibendum maximus.
-          </p>
-        </div>
-        <div class="history-img-container">
-          <img class="history-img" src="img/dog-about.jpg" />
-        </div>
-      </div>
+    <div style="width: 590px; margin-left: auto; margin-right: auto; margin-top: 90px; margin-bottom: 20px;">
+        <div class="d-flex justify-content-center text-center">
+          <h3 style="font-size: 21px; font-weight: 500;">O que os tutores dizem</h3>
+        </div>    
 
-      <div class="time-line-section">
-        <div class="time-line-row">
-          <div class="time-line-row-item">
-            <div class="time-line-graphic">
-              <div class="time-line-circle">
-                <div>2000</div>
+        <div class="row mt-4">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus lectus a urna ultrices commodo."</p>
+                <h6 class="card-title">Max Wein</h6>
               </div>
-              <div class="time-line-dashed"></div>
             </div>
-            <h3 class="time-line-text">Lorem ipsum dolor sit amet</h3>
           </div>
-          <div class="time-line-row-item">
-            <div class="time-line-graphic">
-              <div class="time-line-circle">
-                <div>2010</div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus lectus a urna ultrices commodo."</p>
+                <h6 class="card-title">Letícia Nogueira</h6>
               </div>
-              <div class="time-line-dashed"></div>
             </div>
-            <h3 class="time-line-text">Lorem ipsum dolor sit amet</h3>
           </div>
-        </div>
-        <div class="time-line-line"></div>
-        <div class="time-line-row">
-          <div class="time-line-row-item reverse">
-            <div class="time-line-graphic">
-              <div class="time-line-dashed"></div>
-              <div class="time-line-circle">
-                <div>2005</div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus lectus a urna ultrices commodo."</p>
+                <h6 class="card-title">Pedro Saldanha</h6>
               </div>
             </div>
-            <h3 class="time-line-text">Lorem ipsum dolor sit amet</h3>
-          </div>
-          <div class="time-line-row-item reverse">
-            <div class="time-line-graphic">
-              <div class="time-line-dashed"></div>
-              <div class="time-line-circle">
-                <div>2015</div>
-              </div>
-            </div>
-            <h3 class="time-line-text">Lorem ipsum dolor sit amet</h3>
           </div>
         </div>
-      </div>
     </div>
+
 
     <div id="banner" class="container-fluid text-center mt-5" style="background-image: url('img/call-contact.png'); background-size:cover;">
       <div class="row py-5">
         <div class="col-12 py-5">
           <div class="py-5 text-light">
-          <h2>Quer nos ajudar? Torne-se um voluntário</h2>
-          <p>Pra vero voluptas error quasi voluptatum repudiandae deserunt, adipisci, esse ipsum accusamus quaerat voluptatibus!</p>
-          <button class="btn btn-dark">Preencher Formulário</button>
-        </div>
+            <h2>Quer nos ajudar? Torne-se um voluntário</h2>
+            <p>Pra vero voluptas error quasi voluptatum repudiandae deserunt, adipisci, esse ipsum accusamus quaerat voluptatibus!</p>
+           <button class="btn btn-dark">Preencher Formulário</button>
+          </div>
         </div>
       </div>
     </div>
