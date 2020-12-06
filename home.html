@@ -15,28 +15,25 @@
   </head>
   <body>
     
-    <header>
-      <h3>PetStop</h3>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="./home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./sobre.html">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./gatos.html">Gatos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./cachorros.html">Cachorros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./seja-voluntario.html">Seja Voluntário</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./cachorros.html">Contato</a>
-        </li>
-      </ul>
+    <header>      
+      <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container"><a href="./home.html" class="navbar-brand text-uppercase font-weight-bold"><img src="./img/logo.png" alt="PetStop"></a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="./home.html" class="nav-link font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="./sobre.html" class="nav-link font-weight-bold ">Sobre Nós</a></li>
+                        <li class="nav-item"><a href="./gatos.html" class="nav-link font-weight-bold ">Gatos</a></li>
+                        <li class="nav-item"><a href="./cachorros.html" class="nav-link  font-weight-bold">Cachorros</a></li>
+                        <li class="nav-item"><a href="./seja-voluntario.html" class="nav-link  font-weight-bold">Seja Voluntário</a></li>
+                        <li class="nav-item"><a href="./contato.html" class="nav-link font-weight-bold ">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     </header>
 
     <div class="container-fluid mx-0" style="overflow:hidden">
@@ -60,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="d-flex flex-row justify-content-center" style="position: absolute; left: 25%;top: 75%; margin: 35px 0px; width:50%;">
+      <div class="d-flex flex-row justify-content-center" style="position: absolute; left: 25%;top: 75%; margin: 35px 0px; padding-top: 50px; width:50%;">
         <img src="img/pug.jpg" width="25%">
         <img src="img/gato-brincando.jpg" width="25%">
         <img src="img/cachorro.png" width="25%">
@@ -68,7 +65,7 @@
       </div>
     </div>
 
-    <div class="container text-center d-flex flex-row" style="margin-top: 234px; background-color: #f6f6f6;
+    <div class="container text-center d-flex flex-row" style="margin-top: 260px; background-color: #f6f6f6;
     padding: 10px 20px; justify-content: space-between;max-width: 600px;">
       <div class="dvEscolha">
         <h2>Escolha seu bichinho favorito!</h2>
