@@ -117,16 +117,14 @@ footer {
 /*FIM DO CSS REFERENTE AO MAPA DA PÁGINA DE CONTATO*/
 
 /*CSS REFERENTE AO NAVBAR*/
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
+
 .navbar {
   transition: all 0.4s;
+<<<<<<< HEAD
   background: rgba(66, 66, 66, 0.75);
+=======
+  background: rgb(61, 55, 55, 0.5);
+>>>>>>> 6fbda6bf9a62707b6fa7200bc417bb52b1c05cc2
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   margin: 0;
 }
@@ -137,7 +135,11 @@ footer {
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
+<<<<<<< HEAD
   color: rgb(221, 208, 32);
+=======
+  color: #555;
+>>>>>>> 6fbda6bf9a62707b6fa7200bc417bb52b1c05cc2
   text-decoration: none;
 }
 
@@ -150,7 +152,11 @@ footer {
 
 /* Change navbar styling on scroll */
 .navbar.active {
+<<<<<<< HEAD
   background: rgba(66, 66, 66, 0.75);
+=======
+  background: rgb(61, 55, 55, 0.9);
+>>>>>>> 6fbda6bf9a62707b6fa7200bc417bb52b1c05cc2
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   
   
@@ -162,7 +168,7 @@ footer {
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-  color: #555;
+  color: rgb(226, 212, 212);
   text-decoration: none;
 }
 
@@ -174,7 +180,7 @@ footer {
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
   .navbar {
-      background: #fff;
+      background: rgb(61, 55, 55, 0.5);
   }
 
   .navbar .navbar-brand, .navbar .nav-link {
