@@ -73,8 +73,6 @@ footer {
   margin-left: -10%;
 }
 
-/*FIM DO CSS REFERENTE AO RODAPÉ*/
-
 @media (max-width: 650px) {
   footer {
     width: 100%;
@@ -96,6 +94,8 @@ footer {
     margin-left: 0;
   }
 }
+
+/*FIM DO CSS REFERENTE AO RODAPÉ*/
 
 /*CSS REFERENTE AO MAPA DA PÁGINA DE CONTATO*/
 
@@ -126,7 +126,7 @@ footer {
 }
 
 .navbar .nav-link {
-  color: rgb(221, 208, 32);
+  color: rgb(200, 200, 200);
 }
 
 .navbar .nav-link:hover,
@@ -364,6 +364,7 @@ body {
   background-position: center;
   height: 520px;
   max-height: 100vh;
+  width: 100vw;
 }
 
 .dogs-title {
