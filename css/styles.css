@@ -73,8 +73,6 @@ footer {
   margin-left: -10%;
 }
 
-/*FIM DO CSS REFERENTE AO RODAPÉ*/
-
 @media (max-width: 650px) {
   footer {
     width: 100%;
@@ -96,6 +94,8 @@ footer {
     margin-left: 0;
   }
 }
+
+/*FIM DO CSS REFERENTE AO RODAPÉ*/
 
 /*CSS REFERENTE AO MAPA DA PÁGINA DE CONTATO*/
 
@@ -126,18 +126,18 @@ footer {
 */
 .navbar {
   transition: all 0.4s;
-  background: rgba(189, 66, 214, 0.5);
+  background: rgba(66, 66, 66, 0.75);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   margin: 0;
 }
 
 .navbar .nav-link {
-  color: rgb(221, 208, 32);
+  color: rgb(200, 200, 200);
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: rgb(61, 55, 55);
+  color: rgb(221, 208, 32);
   text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ footer {
 
 /* Change navbar styling on scroll */
 .navbar.active {
-  background: rgba(189, 66, 214, 0.9);
+  background: rgba(66, 66, 66, 0.75);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   
   
@@ -375,6 +375,7 @@ body {
   background-position: center;
   height: 520px;
   max-height: 100vh;
+  width: 100vw;
 }
 
 .dogs-title {
