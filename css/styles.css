@@ -120,7 +120,7 @@ footer {
 
 .navbar {
   transition: all 0.4s;
-  background: rgb(61, 55, 55, 0.5);
+  background: rgb(66, 66, 66, 0.75);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   margin: 0;
 }
@@ -131,7 +131,7 @@ footer {
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #555;
+  color: #FAB700;
   text-decoration: none;
 }
 
@@ -144,19 +144,19 @@ footer {
 
 /* Change navbar styling on scroll */
 .navbar.active {
-  background: rgb(61, 55, 55, 0.9);
+  background: rgb(66, 66, 66, 0.5);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   
   
 }
 
 .navbar.active .nav-link {
-  color: rgb(221, 208, 32);
+  color: #FAB700;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-  color: rgb(226, 212, 212);
+  color: rgb(200, 200, 200);
   text-decoration: none;
 }
 
@@ -370,15 +370,28 @@ body {
   height: 520px;
   max-height: 100vh;
   width: 100vw;
+  margin-top: 87px;
 }
 
 .dogs-title {
   font-size: 40px;
 }
 
+.card-img-top {
+  max-height: 160px;
+  object-fit: contain;
+}
+
 #bannerGeral {
   background-image: url('../img/call-contact.png'); 
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    max-height: 400px;
+    object-fit: contain;
+  }
 }
 
 /*FIM DO CSS REFERENTE A PÁGINA DE CACHORROS */
