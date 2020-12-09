@@ -70,10 +70,10 @@
 
 
 <main class="container my-5">
-  <div class="row row-cols-1 row-cols-md-4">
-    <div class="col mb-4">
+  <div class="row row-cols-1 row-cols-md-4" id="catContainer">
+    <!-- <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" alt="Imagem gatinho" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/dr4.jpg" alt="Imagem gatinho" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -82,7 +82,7 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/cd8.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -91,7 +91,7 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/dqn.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -100,7 +100,7 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/W0elEZzNf.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -109,7 +109,7 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/bnu.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -118,7 +118,7 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/MTc4OTc0MA.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -127,7 +127,7 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/MVQu5GSK1.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
@@ -136,39 +136,49 @@
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" class="card-img-top" alt="...">
+        <img src="https://cdn2.thecatapi.com/images/_LCVkh1cb.jpg" class="card-img-top" alt="...">
         <div class="card-footer">
           <h2><small class="text-muted">Nome</small></h2>
           <small class="text-muted">Raça</small>
         </div>
       </div>
-    </div>
+    </div> -->
+    <!-- <div class="col mb-4" id="catContainer"></div> -->
   </div>
 </main>
 
 
-<!-- <div class="top">
-    <div class="row-cat">
-        <div class="col-3">
-            <img class="img" src="https://cdn2.thecatapi.com/images/d4dK1wn_H.jpg" alt="Imagem gatinho">
-            <img class="img" src="https://cdn2.thecatapi.com/images/ddo.jpg" alt="Imagem gatinho">
-            <img class="img" src="https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg" alt="Imagem gatinho">
-            <img class="img" src="https://cdn2.thecatapi.com/images/a8j.jpg" alt="Imagem gatinho">
-      </div>  
-    </div>
-</div> -->
+<!-- <script>
+  new Vue({ 
+      el: '#app',
+      vuetify: new Vuetify(),
+      data: {
+          image: { url: "https://api.thecatapi.com/images/search?mime_types=jpg,png"}
+      },
+      created(){
+          this.loadNextImage();
+      } ,
+      methods:{
+          async loadNextImage()
+          {
+              try{
+                  axios.defaults.headers.common['x-api-key'] = "DEMO-API-KEY" // Replace this with your API Key
 
-<!-- <div class="bottom">
-  <div class="col-3">
-    <div class="row-cat">
-        
-            <img class="img" src="https://cdn2.thecatapi.com/images/e4b.jpg" alt="Imagem gatinho">
-            <img class="img" src="https://cdn2.thecatapi.com/images/O2ty11RyL.jpg" alt="Imagem gatinho">
-            <img class="img" src="https://cdn2.thecatapi.com/images/cot.jpg" alt="Imagem gatinho">
-            <img class="img" src="https://cdn2.thecatapi.com/images/MTgxODI2MA.jpg" alt="Imagem gatinho">
-        </div>
-    </div>
-</div> -->
+                  let response = await axios.get('https://api.thecatapi.com/images/search?mime_types=jpg,png'), { params: { limit:1, size:"full" } } ) // Ask for 1 Image, at full resolution
+                  
+                  this.image = response.data[0] // the response is an Array, so just use the first item as the Image
+
+                  console.log("-- Image from TheCatAPI.com")
+                  console.log("id:", this.image.id)
+                  console.log("url:", this.image.url)
+
+              }catch(err){
+                  console.log(err)
+              }
+          }
+      }
+  })
+</script> -->
 
   
 
@@ -241,5 +251,6 @@
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="js/main.js"></script>
+<script src="js/cat.js"></script>
 </body>
 </html>
