@@ -330,7 +330,8 @@ body {
   background: #e7e7e7;
   padding: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .form-btn {
@@ -393,7 +394,7 @@ body {
 /*FIM DO CSS REFERENTE A PÁGINA DE CACHORROS */
 /*CSS REFERENTE A PÁGINA HOME*/
 .dvCatTop {
-  top:30%; 
+  top: 30%;
 }
 
 .dvBichinho {
