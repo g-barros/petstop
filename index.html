@@ -51,66 +51,66 @@
       </nav>
     </header>
 
-    <div class="container-fluid mx-0" style="overflow:hidden">
+    <div class="container-fluid" style="margin-top: 87px; overflow:hidden; max-height: 600px;">
       <div class="px-n5 mx-n5">
         <div class="col-md-12">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active d-flex flex-column justify-content-center align-items-center dvTopo">
+              <div class="carousel-item active">
                 <div class="carousel-caption dvCatTop">
                   <div class="text-left" >
-                    <h1>NOS ADOTE</h1>
-                    <h1>PRECISAMOS DE</h1>
-                    <h1>VOCÊ</h1>
-                    <p class="pTexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vestibulum ut magna ante. Cras convallis, metus.</p>
-                  <button class="btn btn-light">ENCONTRE UM PET</button>
+                    <h2>NOS ADOTE</h2> 
+                    <h2>PRECISAMOS DE VOCÊ</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Vestibulum ut magna ante. Cras convallis, metus.</p>
+                  <a class="btn btn-warning" href="./cachorros.html">ENCONTRE UM PET</a>
                   </div>
                   </div>
-                <img class="img-fluid rounded mx-auto d-block" style="opacity: 0.8;" src="img/gato.jpg" alt="Imagem de Gato">
+                <img class="img-fluid w-100" style="opacity: 0.8;" src="img/gato.jpg" alt="Imagem de Gato">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="d-flex flex-row justify-content-center dvAnimalSquare">        
+    </div>
+
+    <div class="container my-5">
+      <div class="d-flex flex-row justify-content-center">
         <img src="img/pug.jpg" width="25%">
         <img src="img/gato-brincando.jpg" width="25%">
         <img src="img/cachorro.png" width="25%">
         <img src="img/gato-olhando.jpg" width="25%">
       </div>
+
     </div>
 
-    <div class="container text-center d-flex flex-row dvBichinho">
-      <div class="dvEscolha">
-        <h2>Escolha seu bichinho favorito!</h2>
+    <div class="container d-flex flex-column align-items-center justify-content-between dvBichinho my-2 w-75">
+      <div class="py-1">
+        <h5>Escolha seu bichinho favorito!</h5>
       </div>
-      <div> 
-        <button class="btn btn-warning text-white mr-1">GATOS</button>
-        <button  class="btn btn-warning text-white mr-0" >CACHORROS</button>
-      </div>
-    </div>
-
-    <div style=" margin-top: 80px;">
-      <div class="dvConhecaHistoria">
-        <div class="dvTxtHist" >
-          <img src="img/cachorro-adocao.jpg">
-        </div>
-        <div class="dvTxtHist" id="TxtConheca" >
-          <div class="text-left">
-          <h2 style="font-size: 20px;">Conheça nossa História</h2>
-          <p style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dolor felis. Cras commodo sagittis sapien non volutpat. Etiam tristique nisi aliquet nisi consectetur luctus. Pellentesque dictum interdum blandit.</p>
-          <button class="btn btn-warning">SOBRE NÓS</button>
-        </div>
+      <div class="py-1">
+        <a class="btn btn-warning" href="./gatos.html">GATOS</a>
+        <a  class="btn btn-warning" href="./cachorros.html">CACHORROS</a>
       </div>
     </div>
 
-    <div class="dvTutores">
-        <div class="d-flex justify-content-center text-center">
+    <div class="container d-flex flex-wrap justify-content-center align-items-center mt-sm-3">
+      <div class="w-md-auto">
+        <img src="img/cachorro-adocao.jpg">
+      </div>
+      <div class="w-50 d-flex flex-column justify-content-between ml-md-3 mt-3 mt-md-0">
+        <h4>Conheça nossa História</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dolor felis. Cras commodo sagittis sapien non volutpat. Etiam tristique nisi aliquet nisi consectetur luctus. Pellentesque dictum interdum blandit.</p>
+        <a class="btn btn-warning align-self-center" href="./sobre.html">SOBRE NÓS</a>
+      </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="text-center">
           <h3 style="font-size: 21px; font-weight: 500;">O que os tutores dizem</h3>
-        </div>    
-
-        <div class="row mt-4">
-          <div class="col-sm-4">
+        </div>
+        <div class="row mt-4 d-flex flex-wrap">
+          <div class="col-md-4">
             <div class="card">
               <div class="card-body">
                 <p class="card-text">
@@ -119,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4 mt-2 mt-md-0">
             <div class="card">
               <div class="card-body">
                 <p class="card-text">
@@ -128,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4 mt-2 mt-md-0">
             <div class="card">
               <div class="card-body">
                 <p class="card-text">
@@ -147,7 +147,7 @@
           <div class="py-5 text-light">
             <h2>Quer nos ajudar? Torne-se um voluntário</h2>
             <p>Pra vero voluptas error quasi voluptatum repudiandae deserunt, adipisci, esse ipsum accusamus quaerat voluptatibus!</p>
-           <button class="btn btn-dark">Preencher Formulário</button>
+            <a class="btn btn-dark" href='./seja-voluntario.html'>Preencher Formulário</a>
           </div>
         </div>
       </div>
