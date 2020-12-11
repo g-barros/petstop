@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -70,126 +69,25 @@
 
 
 <main class="container my-5">
-  <div class="row row-cols-1 row-cols-md-4" id="catContainer">
-    <!-- <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/dr4.jpg" alt="Imagem gatinho" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/cd8.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/dqn.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/W0elEZzNf.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/bnu.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/MTc4OTc0MA.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/MVQu5GSK1.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="https://cdn2.thecatapi.com/images/_LCVkh1cb.jpg" class="card-img-top" alt="...">
-        <div class="card-footer">
-          <h2><small class="text-muted">Nome</small></h2>
-          <small class="text-muted">Raça</small>
-        </div>
-      </div>
-    </div> -->
-    <!-- <div class="col mb-4" id="catContainer"></div> -->
-  </div>
+  <div class="row row-cols-1 row-cols-md-4" id="catContainer"></div>
 </main>
 
-
-<!-- <script>
-  new Vue({ 
-      el: '#app',
-      vuetify: new Vuetify(),
-      data: {
-          image: { url: "https://api.thecatapi.com/images/search?mime_types=jpg,png"}
-      },
-      created(){
-          this.loadNextImage();
-      } ,
-      methods:{
-          async loadNextImage()
-          {
-              try{
-                  axios.defaults.headers.common['x-api-key'] = "DEMO-API-KEY" // Replace this with your API Key
-
-                  let response = await axios.get('https://api.thecatapi.com/images/search?mime_types=jpg,png'), { params: { limit:1, size:"full" } } ) // Ask for 1 Image, at full resolution
-                  
-                  this.image = response.data[0] // the response is an Array, so just use the first item as the Image
-
-                  console.log("-- Image from TheCatAPI.com")
-                  console.log("id:", this.image.id)
-                  console.log("url:", this.image.url)
-
-              }catch(err){
-                  console.log(err)
-              }
-          }
-      }
-  })
-</script> -->
-
-  
-
-<div id="banner" class="container-fluid text-center mt-5" style="background-image: url('img/call-contact.png'); background-size:cover;">
+<div
+  id="banner"
+  class="container-fluid text-center mt-5"
+  style="
+    background-image: url('img/call-contact.png');
+    background-size: cover;"
+>
   <div class="row py-5">
     <div class="col-12 py-5">
       <div class="py-5 text-light">
-      <h2>Quer nos ajudar? torne-se um voluntário</h2>
-      <p>Pra vero voluptas error quasi voluptatum repudiandae deserunt, adipisci, esse ipsum accusamus quaerat voluptatibus!</p>
-      <button class="btn btn-dark">Preencher Formulário</button>
-    </div>
+        <h2>Quer nos ajudar? torne-se um voluntário</h2>
+        <p>
+          Preencha o formulário e nos informe seus dados que entraremos em contato!
+        </p>
+        <a class="btn btn-dark" href='./seja-voluntario.html'>Quero ser um Voluntário</a>
+      </div>
     </div>
   </div>
 </div>
